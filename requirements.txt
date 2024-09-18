@@ -1,0 +1,6 @@
+-i https://pypi.org/simple
+numpy
+opencv-python
+pytorch_lightning
+Werkzeug
+torchtext
