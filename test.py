@@ -162,7 +162,7 @@ cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("COCO-Keypoints/keypoint_rcnn_R
 
 cfg.MODEL.DEVICE = "cuda:0"
 # create the predictor for pose estimation using the config
-pose_detector = DefaultPredictor(cfg)
+#pose_detector = DefaultPredictor(cfg)
 
 
 
