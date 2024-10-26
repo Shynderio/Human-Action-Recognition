@@ -1,10 +1,4 @@
 from src.lstm import ActionClassificationLSTM
-from src.video_analyzer_web import analyse_video
-
-# import some common Detectron2 utilities
-#from detectron2 import model_zoo
-#from detectron2.engine import DefaultPredictor
-#from detectron2.config import get_cfg
 import time
 import cv2
 import numpy as np
@@ -179,9 +173,10 @@ lstm_classifier.to(device)
 lstm_classifier.eval()
 
 # analyse_video(pose_detector, lstm_classifier, )
-video_path = "sunt_video2.mp4"
+# video_path = "sunt_video2.mp4"
+video_path = "output.mp4"
 # open the video
-cap = cv2.VideoCapture(video_path)
+cap = cv2.VideoCapture(0)
 # width of image frame
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 # height of image frame

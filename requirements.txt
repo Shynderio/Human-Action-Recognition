@@ -4,3 +4,4 @@ opencv-python
 pytorch_lightning
 Werkzeug
 torchtext
+mediapipe
